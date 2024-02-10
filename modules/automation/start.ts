@@ -8,10 +8,11 @@ import { updateKudosuRankings } from "./jobs/updateKudosuRankings";
 import { consoleCheck } from "../../helpers/core/logger";
 
 function start() {
-    if (config.automation) {
-        consoleCheck("cron", "Starting cron jobs...");
-        updateKudosuRankings.start();
-    }
+	// @ts-expect-error config may not have the automation property.
+	if (config.automation) {
+		consoleCheck("cron", "Starting cron jobs...");
+		updateKudosuRankings.start();
+	}
 }
 
 start();
