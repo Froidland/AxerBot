@@ -6,18 +6,6 @@
 	"dependencies": {
 		"@jimp/plugin-shadow": "^0.22.4",
 		"@kionell/osu-pp-calculator": "^4.0.0",
-		"@types/archiver": "^6.0.2",
-		"@types/color-convert": "^2.0.0",
-		"@types/diff": "^5.0.3",
-		"@types/express": "^4.17.13",
-		"@types/fluent-ffmpeg": "^2.1.20",
-		"@types/moment": "^2.13.0",
-		"@types/mongoose": "^5.11.97",
-		"@types/node": "^18.15.11",
-		"@types/node-cron": "^3.0.8",
-		"@types/numeral": "^2.0.2",
-		"@types/spectrogram": "^0.0.1",
-		"@types/yauzl": "^2.10.0",
 		"archiver": "^6.0.1",
 		"array-paginator": "^1.5.2",
 		"asynckit": "^0.4.0",
@@ -88,6 +76,26 @@
 		"ws": "^7.5.5",
 		"yauzl": "^2.10.0"
 	},
+	"devDependencies": {
+		"@types/archiver": "^6.0.2",
+		"@types/chance": "^1.1.3",
+		"@types/color-convert": "^2.0.0",
+		"@types/d3": "^7.1.0",
+		"@types/diff": "^5.0.3",
+		"@types/express": "^4.17.13",
+		"@types/fluent-ffmpeg": "^2.1.20",
+		"@types/get-image-colors": "^4.0.2",
+		"@types/lodash": "^4.14.180",
+		"@types/node": "^18.19.15",
+		"@types/node-cron": "^3.0.8",
+		"@types/node-fetch": "^2.6.1",
+		"@types/numeral": "^2.0.2",
+		"@types/spectrogram": "^0.0.1",
+		"@types/statuses": "^2.0.1",
+		"@types/when": "^2.4.34",
+		"@types/ws": "^8.5.10",
+		"@types/yauzl": "^2.10.0"
+	},
 	"scripts": {
 		"test": "cross-env NODE_ENV=development ts-node-dev --transpile-only --respawn --ignore-watch node_modules",
 		"start": "cross-env NODE_ENV=production node index.js",
@@ -103,16 +111,5 @@
 	"bugs": {
 		"url": "https://github.com/Hiviexd/axer-bot/issues"
 	},
-	"homepage": "https://github.com/Hiviexd/axer-bot#readme",
-	"devDependencies": {
-		"@types/chance": "^1.1.3",
-		"@types/d3": "^7.1.0",
-		"@types/express": "^4.17.13",
-		"@types/get-image-colors": "^4.0.2",
-		"@types/lodash": "^4.14.180",
-		"@types/node-fetch": "^2.6.1",
-		"@types/numeral": "^2.0.2",
-		"@types/statuses": "^2.0.1",
-		"@types/when": "^2.4.34"
-	}
+	"homepage": "https://github.com/Hiviexd/axer-bot#readme"
 }
